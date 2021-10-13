@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+@font-face {
+    font-family: nasalization;
+    src: url('../font/nasalization-rg.otf');
+}
+
+h1 {
+    font-family: nasalization, sans-serif;
+}
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    padding: 20px;
+    background-color:rgba(50, 46, 46, 0.8);
+}
+#myBtn {
+    margin-top: 0.5em;
+    width: 200px;
+    font-size: 1.25em;
+    padding: 0.5em;
+    border: 0.075em solid rgb(255,255,255);
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 0.5em;
+    font-family: nasalization, sans-serif;
+    transition: all 0.5s linear;
+}
+#myBtn:hover {
+    background-color:rgba(50, 46, 46, 0.8);
+    color:cyan;
+    border-color: cyan;
+}
+p {
+    margin-top: 0.5em;
+    line-height: 1.75em;
+}
